@@ -4,7 +4,7 @@
 
 1. Desactivar la autentificación con GitHub Token para lo cual utilizar el comando:
 ```
-unset GHUB_TOKEN
+unset GITHUB_TOKEN
 ```
 2. Autentificarse a GHUB-CLI con el navegador usando el comando:
 ```
