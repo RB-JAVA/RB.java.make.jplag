@@ -1,1 +1,1 @@
-# RB.java.make.jplag
+# JPlag - Revisión de plagio en Proyectos de programación
