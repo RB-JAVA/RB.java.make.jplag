@@ -24,10 +24,25 @@ Una vez descargadas las tareas copie las mismas a la carpeta ```submissions``` p
 
 ## Revisión del plagio en tareas
 
-Ejecute el comando:
+Revisión general:
 
 ```
-java -jar ./lib/jplag.jar ./submissions
+make review
+```
+Revisión Python:
+
+```
+make review-python
+```
+Revisión C++:
+
+```
+make review-cpp
+```
+Revisión Java:
+
+```
+make review-java
 ```
 Una vez finalizada la revisión ubique el archivo ```results.zip``` que se generaría en el directorio raíz.
 
