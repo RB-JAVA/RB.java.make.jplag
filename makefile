@@ -1,10 +1,8 @@
-all: 
-	make compile
-	make run
-compile:
-	find ./ -type f -name "*.java" > compfiles.txt ; javac -d build @compfiles.txt
-run:
-	clear
-	java -cp build miPrincipal.Principal
-clean:
-	rm -r ./build/*
+review:
+	java -jar ./lib/jplag.jar ./submissions
+review-java:
+	java -jar ./lib/jplag.jar ./submissions
+review-python:
+	java -jar ./lib/jplag.jar ./submissions
+review-cpp:
+	java -jar ./lib/jplag.jar ./submissions
