@@ -31,6 +31,7 @@ gh extension install github/gh-classroom
 ```
 gh classroom clone student-repos -a 610664 -d submissions   
 ```
+Las tareas se van a colocar en un directorio ```./submissions/<Tarea>```. Mueva las tareas para que queden a nivel de ```./submissions```. Puede borrar el directorio vacío ```<Tarea>```.
 
 ## Revisión del plagio en tareas
 
