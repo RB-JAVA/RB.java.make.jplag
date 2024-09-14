@@ -23,6 +23,7 @@ gh extension install github/gh-classroom
 ## Descarga de las tareas a revisar
 
 1. Navegar hacia la página ```classroom.github.com``` para ubicarse en las entregas de las tareas a revisar. En las entregas ubicar el botón ```Download```.
+   
 2. Desplegar un menú con la opción ```Student Repositories```. En esta opción copiar al portapapeles el comando ```gh classroom...``` incluido para descargar las tareas en alguna carpeta de su escritorio preferentemente.
 
 ## Copiado de las tareas para revisión de plagio
