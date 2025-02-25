@@ -59,4 +59,8 @@ Una vez finalizada la revisión ubique el archivo ```results.zip``` que se gener
 
 ## Resultados de la revisión de plagio
 
-Abra la página [https://jplag.github.io/JPlag/](https://jplag.github.io/JPlag/) para luego tomar y soltar sobre la misma el archivo ```results.zip``` para consultar los resultados del plagio.
+1. Descargue el archivo `results.zip` al escritorio local de su computadora.
+2. Mostrar la terminal con `Ctrl+ñ`.
+3. Dar clic en la pestaña ```PUERTOS``` y agregar el puerto ```1996```. Se agregará una URL.
+4. En la columna ```Dirección reenviada``` dar clic en el Globo terráqueo para abrir una pestaña del navegador donde estará el visor de reportes de `JPlag`.
+5. Suelte el archivo `results.zip` en el visor de reportes de `JPlag` para revisar resultados.
