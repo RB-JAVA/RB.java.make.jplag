@@ -33,6 +33,12 @@ gh classroom clone student-repos -a 610664 -d submissions
 ```
 Las tareas se van a colocar en un directorio ```./submissions/<Tarea>```. Mueva las tareas para que queden a nivel de ```./submissions```. Puede borrar el directorio vacío ```<Tarea>```.
 
+## Activar el desktop-lite
+
+1. Dar clic en la pestaña ```PUERTOS``` y agregar el puerto ```6080```. Se agregará una URL.
+2. En la columna ```Dirección reenviada``` dar clic en el Globo terráqueo para abrir una pestaña del navegador donde estará el *desktop-lite*. O bien dar clic en ```Abrir en Explorador Simple``` para mostrar el *desktop-lite* en un navegador sencillo incrustado en la misma IDE.
+3. En la nueva pestaña abierta se mostrará el mensaje *noVNC* y dar clic en el botón ```Conectar```. Se mostrará el *desktop-lite*.
+
 ## Revisión del plagio en tareas
 
 Revisión general (sin considerar lenguaje específicio en tareas):
@@ -55,8 +61,10 @@ Revisión Java:
 ```
 make review-java
 ```
-Una vez finalizada la revisión ubique el archivo ```results.zip``` que se generaría en el directorio raíz.
+Una vez finalizada la revisión ubique el archivo ```results.zip``` que se generaría en el directorio raíz. Descárguelo al escritorio local.
 
 ## Resultados de la revisión de plagio
 
-Abra la página [https://jplag.github.io/JPlag/](https://jplag.github.io/JPlag/) para luego tomar y soltar sobre la misma el archivo ```results.zip``` para consultar los resultados del plagio.
+1. Dar clic en la pestaña ```PUERTOS``` y agregar el puerto ```1996```. Se agregará una URL.
+4. En la columna ```Dirección reenviada``` dar clic en el Globo terráqueo para abrir una pestaña del navegador donde estará el visor de reportes de `JPlag`.
+5. Suelte el archivo `results.zip` en el escritorio local en el visor de reportes de `JPlag` para revisar resultados.
